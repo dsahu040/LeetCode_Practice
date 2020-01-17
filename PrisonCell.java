@@ -19,7 +19,7 @@ public class PrisonCell {
 	 */
 	
 	public int[] prisonAfterNDays(int[] cells, int N) {
-        Map<String, Integer> seen = new HashMap();
+        Map<String, Integer> seen = new HashMap<>();
         while (N > 0) {
             int[] cells2 = new int[8];
             seen.put(Arrays.toString(cells), N--);

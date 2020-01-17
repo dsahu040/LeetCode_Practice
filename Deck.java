@@ -55,7 +55,7 @@ enum Suit {
 public class Deck {
 	
 	public static List<Card> createDeck() {
-		List<Card> deck = new ArrayList();
+		List<Card> deck = new ArrayList<>();
 	    
 	    for(int i = 1; i <=13; i++){
 	        deck.add(new Card(i, Suit.HEART));
